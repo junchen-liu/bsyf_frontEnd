@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course_select/index",
+    "pages/formula/index",
+    "pages/else_page/index",
+    "pages/center/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/subpages",
+      "pages": [
+        "sub_calendar/index",
+        "sub_parse_table/index",
+        "sub_parse_table/jump",
+        "sub_form/form"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BeYourself",
+    "navigationBarBackgroundColor": "#abbcd9",
+    "backgroundColor": "#abbcd9"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course_select/index",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "选课"
+      },
+      {
+        "pagePath": "pages/formula/index",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/else_page/index",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "其他"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/uview/example/template.png",
+        "selectedIconPath": "static/uview/example/template_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

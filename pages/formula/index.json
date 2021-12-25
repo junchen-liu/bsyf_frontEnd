@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "论坛",
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "课程表",
+  "usingComponents": {
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse"
+  }
+}
